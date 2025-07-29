@@ -1,0 +1,26 @@
+
+Flask-CKEditor==1.0.0
+Flask-Login==0.6.3
+Flask-Gravatar==0.5.0
+Flask-WTF==1.2.2
+WTForms==3.2.1
+Werkzeug==3.1.3
+Flask==3.1.1
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.41
+gunicorn==23.0.0
+psycopg2-binary==2.9.10
+
+
+
+pip install -r requirements.txt - installs them
+pip install --upgrade -r requirements.txt - upgrades txt 
+pip freeze > requirements.txt - overwrides the txt when saved
+
+Color Name	Hex Code	Use
+Deep Charcoal	#2E2E2E	Text, outlines, inner badge ring
+Dark Olive Green	#4B5D52	Icons, path lines, accents
+Muted Rust Red	#A14B41	Highlights, sun, mountains
+Faded Sand Beige	#F3ECE3	Background or texture fill
+Soft Clay Orange	#D67F4D	Secondary accent (stamps or icons)
+Dusty Sage	#7B8F7A	Secondary icon fill or shading
