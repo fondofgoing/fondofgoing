@@ -1,6 +1,8 @@
 
 /* Header Styling Started */
-
+.header_area{
+  background:#fff 
+}
 
 .header_area .navbar-social li {
   margin-right:12px
@@ -301,6 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--================Hero Banner start =================--*/
 .mb-30px {
+  width: 100%;
   margin-bottom:30px
 }
 
@@ -333,6 +336,7 @@ max-width: 1140px;
   background: url(/static/assets/img/landscape/6.jpeg) left center no-repeat;
   background-size: cover;
   height: 400px;
+  width: 100%;
   z-index:1
 }
 
@@ -448,6 +452,7 @@ width: 33.33333333%;
 .image-zoom-effect .image-holder {
   width: 100%;
   height: auto;
+  border-radius: 25px;
   overflow: hidden;
   transform: scale(1);
   transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -460,7 +465,7 @@ width: 33.33333333%;
 }
 
 .product-image {
-  filter: contrast(80%);
+  filter: contrast(70%);
 }
 
 .image-holder{
@@ -534,6 +539,10 @@ a {
 
 /*--================Categories Banner end =================--*>  
 
+
+
+
+
 /* Main Body Styling Finished */
 
 .blog__slide__content h3, .blog__slide__content a {
@@ -596,17 +605,48 @@ a {
   margin-top:30px
 }
 
+/********************** Main Body Start **************************************/
+
+.mb-5 {
+  margin-bottom: 3rem!important;
+  }
+
+@media (min-width:768px){
+.g-md-5, .gx-md-5 {
+--bs-gutter-x: 3rem;
+}
+}
+
+@media (min-width:768px){
+.g-md-5, .gy-md-5 {
+--bs-gutter-y: 3rem;
+}
+}
+
+.padding-medium {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  }
+
+/********************** About Us Start *******************/
+@media (min-width:992px){
+  .col-lg-8 {
+  flex: 0 0 auto;
+  width: 74.8%;
+}
+}
+
+@media (min-width:992px){
+  .col-lg-3 {
+  flex: 0 0 auto;
+  width: 22%;
+}
+}
+/********************** About Us end *******************/
 
 
 
-
-
-
-
-
-
-
-
+/********************** Main Body End **************************************/
 /* Footer Styling Started */
 
 
@@ -828,6 +868,7 @@ p {
   color: #797979
 }
 
-
-
+.round-img{
+  border-radius: 10%;
+}
 
